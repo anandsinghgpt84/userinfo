@@ -1,27 +1,37 @@
-body {
-  font-family: Arial, sans-serif;
+.main-container {
   text-align: center;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  padding: 20px;
   margin: 20px;
+  background-color: #f2f2f2;
 }
 
-h1 {
-  color: #2f7a7c;
+.search-container {
+  margin: 10px 0;
 }
 
-input[type="text"] {
+.search-container input {
   padding: 5px;
 }
 
-button {
-  background-color: #0084ff;
+.search-container button {
+  background-color: #007BFF;
   color: white;
   border: none;
   padding: 5px 10px;
-  margin: 10px;
   cursor: pointer;
 }
 
-table {
+.search-history {
+  margin-top: 10px;
+}
+
+.search-history span {
+  font-weight: bold;
+}
+
+.user-table {
   width: 100%;
   border-collapse: collapse;
 }
@@ -29,40 +39,7 @@ table {
 th, td {
   border: 1px solid #333;
   padding: 10px;
-}
-
-th {
-  background-color: #bbd7f5;
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-tr:hover {
-  background-color: #ccc;
-}
-/* App.css */
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Centers the content vertically */
-  margin: 20px;
-}
-
-table {
-  width: 80%;
-  border-collapse: collapse;
-  margin: 10px;
-}
-
-th, td {
-  border: 1px solid #333;
-  padding: 10px;
+  cursor: pointer;
 }
 
 th {
@@ -70,10 +47,37 @@ th {
   color: white;
 }
 
+th:hover {
+  background-color: #0056b3;
+}
+
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
 tr:hover {
   background-color: #ccc;
+}
+
+.vibrant-color-1 {
+  background-color: violet;
+}
+
+.vibrant-color-2 {
+  background-color: orange;
+}
+
+.vibrant-color-3 {
+  background-color: green;
+}
+.vibrant-color-4 {
+  background-color: yellow; /* Choose your preferred color */
+}
+
+.vibrant-color-5 {
+  background-color: pink; /* Choose your preferred color */
+}
+
+.vibrant-color-6 {
+  background-color: lightblue; /* Choose your preferred color */
 }
